@@ -715,7 +715,3 @@ CONFIG_DEVTMPFS=y
 # CONFIG_DEBUG_SPINLOCK is not set
 # CONFIG_DEBUG_MUTEXES is not set
 # CONFIG_SCHED_DEBUG is not set
-
-
-# 4. Desactivar KSM (Previene micro-tirones por escaneo de RAM)
-# CONFIG_KSM is not set
