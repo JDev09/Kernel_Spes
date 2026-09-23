@@ -705,10 +705,6 @@ CONFIG_DEVTMPFS=y
 # JDEV: OPTIMIZACIONES DE RENDIMIENTO
 # ==========================================
 
-# 1. Optimizacion de compilador
-CONFIG_CC_OPTIMIZE_FOR_PERFORMANCE=y
-# CONFIG_CC_OPTIMIZE_FOR_SIZE is not set
-
 # 2. Desactivar rastreadores y depuracion pesada
 # CONFIG_PROFILING is not set
 # CONFIG_MAGIC_SYSRQ is not set
