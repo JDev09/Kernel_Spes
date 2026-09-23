@@ -716,9 +716,6 @@ CONFIG_DEVTMPFS=y
 # CONFIG_DEBUG_MUTEXES is not set
 # CONFIG_SCHED_DEBUG is not set
 
-# 3. Optimizacion de ZRAM (Compresion LZ4 rapida)
-CONFIG_CRYPTO_LZ4=y
-CONFIG_ZRAM_DEF_COMP_LZ4=y
 
 # 4. Desactivar KSM (Previene micro-tirones por escaneo de RAM)
 # CONFIG_KSM is not set
