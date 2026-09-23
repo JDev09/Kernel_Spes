@@ -700,3 +700,29 @@ CONFIG_BRIDGE_NETFILTER=y
 CONFIG_NF_TABLES=y
 CONFIG_NETFILTER_XT_MATCH_ADDRTYPE=y
 CONFIG_DEVTMPFS=y
+
+# ==========================================
+# JDEV: OPTIMIZACIONES DE RENDIMIENTO
+# ==========================================
+
+# 1. Optimizacion de compilador
+CONFIG_CC_OPTIMIZE_FOR_PERFORMANCE=y
+# CONFIG_CC_OPTIMIZE_FOR_SIZE is not set
+
+# 2. Desactivar rastreadores y depuracion pesada
+# CONFIG_PROFILING is not set
+# CONFIG_MAGIC_SYSRQ is not set
+# CONFIG_SLUB_DEBUG is not set
+# CONFIG_PM_DEBUG is not set
+# CONFIG_DEBUG_KMEMLEAK is not set
+# CONFIG_DEBUG_STACK_USAGE is not set
+# CONFIG_DEBUG_SPINLOCK is not set
+# CONFIG_DEBUG_MUTEXES is not set
+# CONFIG_SCHED_DEBUG is not set
+
+# 3. Optimizacion de ZRAM (Compresion LZ4 rapida)
+CONFIG_CRYPTO_LZ4=y
+CONFIG_ZRAM_DEF_COMP_LZ4=y
+
+# 4. Desactivar KSM (Previene micro-tirones por escaneo de RAM)
+# CONFIG_KSM is not set
