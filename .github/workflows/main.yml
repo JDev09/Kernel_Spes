@@ -17,6 +17,8 @@ jobs:
     steps:
       - name: Build Kernel spes 4.19 BPF KSUN
         uses: dabao1955/kernel_build_action@main
+        env:
+          KCFLAGS: "-Wno-error"
         with:
           kernel-url: https://github.com/JDev09/kernel_spes/
           kernel-dir: msm-4.19
@@ -30,4 +32,4 @@ jobs:
           aosp-clang-version: r596125
           anykernel3: true
           anykernel3-url: https://github.com/JDev09/AnyKernel3
-          extra-make-args: LLVM=1 LLVM_IAS=1
+          extra-make-args: LLVM=1 LLVM_IAS=1 KCFLAGS=-Wno-error
