@@ -33,3 +33,4 @@ jobs:
           anykernel3: true
           anykernel3-url: https://github.com/JDev09/AnyKernel3
                     extra-make-args: LLVM=1 LLVM_IAS=1 KCFLAGS="-Wno-error" WERROR=0
+
