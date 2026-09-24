@@ -700,15 +700,3 @@ CONFIG_BRIDGE_NETFILTER=y
 CONFIG_NF_TABLES=y
 CONFIG_NETFILTER_XT_MATCH_ADDRTYPE=y
 CONFIG_DEVTMPFS=y
-
-# ==========================================
-# JDEV: OPTIMIZACIONES DE RENDIMIENTO
-# ==========================================
-
-# 2. Desactivar rastreadores y depuracion pesada
-# CONFIG_SLUB_DEBUG is not set
-# CONFIG_PM_DEBUG is not set
-# CONFIG_DEBUG_KMEMLEAK is not set
-# CONFIG_DEBUG_STACK_USAGE is not set
-# CONFIG_DEBUG_SPINLOCK is not set
-# CONFIG_DEBUG_MUTEXES is not set
