@@ -706,12 +706,9 @@ CONFIG_DEVTMPFS=y
 # ==========================================
 
 # 2. Desactivar rastreadores y depuracion pesada
-# CONFIG_PROFILING is not set
-# CONFIG_MAGIC_SYSRQ is not set
 # CONFIG_SLUB_DEBUG is not set
 # CONFIG_PM_DEBUG is not set
 # CONFIG_DEBUG_KMEMLEAK is not set
 # CONFIG_DEBUG_STACK_USAGE is not set
 # CONFIG_DEBUG_SPINLOCK is not set
 # CONFIG_DEBUG_MUTEXES is not set
-# CONFIG_SCHED_DEBUG is not set
